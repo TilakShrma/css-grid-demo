@@ -20,6 +20,12 @@ body{
 
 /*    NAV    */
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav{
     display: flex;
     list-style: none;
@@ -56,6 +62,10 @@ a{
     height: 100vh;
 }
 
+.container > img {
+    height: 30rem;
+}
+
 
 /* GRID */
 
@@ -75,6 +85,11 @@ a{
     margin: 20px;
 }
 
+/* FOOTER */
+
+footer{
+    text-align: center;
+}
 
 
 
